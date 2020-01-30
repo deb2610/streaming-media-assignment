@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Homework",
+  "main": "/.src/server.js/",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.13.6"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deb2610/streaming-media-assignment.git"
+  },
+  "author": "Olive Behan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/deb2610/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/deb2610/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
